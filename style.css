@@ -1,0 +1,25 @@
+body {
+    background-color:#808080;
+    background-image: url(sunset.jpg);
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffff00;
+    text-align: center;
+}
+h1 {
+    color:#808080;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body * { 
+    background-color: rgba(red, green, blue, alpha); /* Dark transparent background */
+    padding: 10px;
+    border-radius: 5px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
